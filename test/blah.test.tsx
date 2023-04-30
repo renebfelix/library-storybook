@@ -1,6 +1,5 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Default as Thing } from '../stories/Avatar/Avatar.stories';
 import { Avatar } from '../stories/Avatar';
 
 describe('Avatar', () => {
