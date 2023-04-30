@@ -1,6 +1,6 @@
 import React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Avatar } from '../stories/Avatar';
+import { Avatar } from '../src/stories/Avatar';
 
 describe('Avatar', () => {
   it('renders without crashing', () => {
