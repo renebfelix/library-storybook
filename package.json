@@ -35,16 +35,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "about-me-library",
+  "name": "@renebfelix/library-storybook",
   "author": "Rene Felix",
-  "module": "dist/about-me-library.esm.js",
+  "module": "dist/library-storybook.esm.js",
   "size-limit": [
     {
-      "path": "dist/about-me-library.cjs.production.min.js",
+      "path": "dist/library-storybook.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/about-me-library.esm.js",
+      "path": "dist/library-storybook.esm.js",
       "limit": "10 KB"
     }
   ],
