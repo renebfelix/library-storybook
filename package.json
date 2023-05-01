@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -75,7 +75,12 @@
     "typescript": "^3.9.10"
   },
   "dependencies": {
+    "@dicebear/adventurer-neutral": "^6.0.3",
+    "@dicebear/avatars": "^4.10.8",
+    "@dicebear/collection": "^6.0.3",
+    "@dicebear/core": "^6.0.3",
     "@types/styled-components": "^5.1.26",
+    "react-inlinesvg": "^3.0.2",
     "styled-components": "^5.3.10"
   }
 }
