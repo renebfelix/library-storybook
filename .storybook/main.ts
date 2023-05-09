@@ -1,13 +1,6 @@
 module.exports = {
-  stories: [
-    '../src/stories/**/*.mdx)',
-    '../src/stories/**/*.stories.@(ts|tsx|js|jsx)'
-  ],
-  addons: [
-    '@storybook/addon-links', 
-    '@storybook/addon-docs',
-    '@storybook/addon-essentials'
-  ],
+  stories: ['../src/stories/**/*.mdx)', '../src/stories/**/*.stories.@(ts|tsx|js|jsx)'],
+  addons: ['@storybook/addon-links', '@storybook/addon-docs', '@storybook/addon-essentials'],
   // https://storybook.js.org/docs/react/configure/typescript#mainjs-configuration
   typescript: {
     check: true // type-check stories during Storybook build
@@ -16,5 +9,8 @@ module.exports = {
   framework: {
     name: "@storybook/react-webpack5",
     options: {}
+  },
+  docs: {
+    autodocs: true
   }
 };
